@@ -204,7 +204,7 @@ PrefabInstance:
     - target: {fileID: 288871330614809342, guid: a5083e915985aaa488885c0dcca0265d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.46
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 288871330614809342, guid: a5083e915985aaa488885c0dcca0265d,
         type: 3}
@@ -357,7 +357,7 @@ PrefabInstance:
     - target: {fileID: 4547228756840095066, guid: fe086ccab1ff17a469dd612b0f572d36,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.29
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4547228756840095066, guid: fe086ccab1ff17a469dd612b0f572d36,
         type: 3}
@@ -630,6 +630,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 4078037448584026688, guid: 5ad5b83220f6dfa4d997187a2bb859ac,
+        type: 3}
+      propertyPath: restartPanel
+      value: 
+      objectReference: {fileID: 1942220685}
     - target: {fileID: 1974491774, guid: 5ad5b83220f6dfa4d997187a2bb859ac, type: 3}
       propertyPath: speed
       value: 3
@@ -751,6 +756,26 @@ PrefabInstance:
     - target: {fileID: 7596708201674341527, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
       propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989954508543903079, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989954508543903079, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663679934857359764, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663679934857359764, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1451,6 +1476,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cbc3b8ba51457347a4019d460f57e1f, type: 3}
+--- !u!1 &1942220685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1018945765792535990, guid: 196e11dac76bae54b806790e562a1c80,
+    type: 3}
+  m_PrefabInstance: {fileID: 1261525725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1963100024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1518,6 +1549,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4078037448584026688, guid: 5ad5b83220f6dfa4d997187a2bb859ac,
+        type: 3}
+      propertyPath: restartPanel
+      value: 
+      objectReference: {fileID: 1942220685}
     - target: {fileID: 1974491774, guid: 5ad5b83220f6dfa4d997187a2bb859ac, type: 3}
       propertyPath: speed
       value: 3

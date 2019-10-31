@@ -212,6 +212,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124806042757736147, guid: a9fae81e63140de42bd4429f916ed9d9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.742
+      objectReference: {fileID: 0}
+    - target: {fileID: 1124806042757736147, guid: a9fae81e63140de42bd4429f916ed9d9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0600761
+      objectReference: {fileID: 0}
     - target: {fileID: 1124806041599980159, guid: a9fae81e63140de42bd4429f916ed9d9,
         type: 3}
       propertyPath: m_Offset.x
@@ -226,16 +236,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.21500003
-      objectReference: {fileID: 0}
-    - target: {fileID: 1124806042757736147, guid: a9fae81e63140de42bd4429f916ed9d9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.742
-      objectReference: {fileID: 0}
-    - target: {fileID: 1124806042757736147, guid: a9fae81e63140de42bd4429f916ed9d9,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0600761
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9fae81e63140de42bd4429f916ed9d9, type: 3}
@@ -928,6 +928,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3989954508543903079, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989954508543903079, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7596708200917270793, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
       propertyPath: m_IsActive
@@ -936,58 +946,42 @@ PrefabInstance:
     - target: {fileID: 7596708200709014209, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165.9
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 7596708200709014209, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1228.2
+      value: 1061.6
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708200709014238, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708200709014209, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_Text
-      value: 'A square of 10 X 10 cells.
-
-        100 cells in the first row is shaded, 99 in the second row, 98 in the third,
-        and so on
-
-
-        in total how many cells are not shaded ?'
+      propertyPath: m_AnchoredPosition.x
+      value: 0.4749756
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708200709014238, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708200709014209, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 100
+      propertyPath: m_SizeDelta.x
+      value: -18.9
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708200915956436, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708201554521069, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_Text
-      value: 42
+      propertyPath: m_SizeDelta.y
+      value: 379.2
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708201580361242, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708201554521069, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: WrongAns
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708202203227934, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708201554521069, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_Text
-      value: 50
+      propertyPath: m_SizeDelta.x
+      value: 1536
       objectReference: {fileID: 0}
-    - target: {fileID: 7596708202196560135, guid: 196e11dac76bae54b806790e562a1c80,
+    - target: {fileID: 7596708201554521069, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RightAns
-      objectReference: {fileID: 0}
-    - target: {fileID: 7596708202167411083, guid: 196e11dac76bae54b806790e562a1c80,
-        type: 3}
-      propertyPath: m_Text
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 7596708202218464854, guid: 196e11dac76bae54b806790e562a1c80,
-        type: 3}
-      propertyPath: m_Text
-      value: 55
+      propertyPath: m_AnchoredPosition.y
+      value: 67.599976
       objectReference: {fileID: 0}
     - target: {fileID: 7596708201339798375, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
@@ -1013,6 +1007,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: -86.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018945765792535990, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663679934857359764, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663679934857359764, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708200709014238, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_Text
+      value: 'A square of 10 X 10 cells.
+
+        100 cells in the first row is shaded, 99 in the second row, 98 in the third,
+        and so on
+
+
+        in total how many cells are not shaded ?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708200709014238, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7596708201430446115, guid: 196e11dac76bae54b806790e562a1c80,
         type: 3}
@@ -1042,6 +1067,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708201580361242, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: WrongAns
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708202196560135, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RightAns
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708200915956436, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_Text
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708202167411083, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_Text
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708202203227934, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_Text
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596708202218464854, guid: 196e11dac76bae54b806790e562a1c80,
+        type: 3}
+      propertyPath: m_Text
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 196e11dac76bae54b806790e562a1c80, type: 3}
@@ -1436,7 +1491,7 @@ PrefabInstance:
     - target: {fileID: 288871330614809342, guid: a5083e915985aaa488885c0dcca0265d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.46
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 288871330614809342, guid: a5083e915985aaa488885c0dcca0265d,
         type: 3}
