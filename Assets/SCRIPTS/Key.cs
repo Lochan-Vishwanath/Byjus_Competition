@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Key : MonoBehaviour
 {
     Animator myanimator;
-    public RectTransform Panle;
+    public GameObject Panle;
     public bool openDoor = false;
 
     void Start()
@@ -21,6 +21,6 @@ public class Key : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Panle.gameObject.SetActive(true);
+        Panle.SetActive(true);
     }
 }

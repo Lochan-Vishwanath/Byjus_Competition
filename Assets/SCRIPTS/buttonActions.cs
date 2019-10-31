@@ -9,8 +9,14 @@ public class buttonActions : MonoBehaviour
     static int counter = 0;
 
     public Text ANS;
-    public RectTransform Explaination,Panel;
-    public GameObject Key;
+    [SerializeField] GameObject Explaination,Panel;
+    GameObject Key,Blocked;
+
+    private void Start()
+    {
+        Key = GameObject.Find("Key");
+        Blocked = GameObject.Find("BlueLocked");
+    }
 
     public void WrongAns()
     {
@@ -18,7 +24,7 @@ public class buttonActions : MonoBehaviour
         if (counter >= 3)
         {
             ANS.text = "";
-            Explaination.gameObject.SetActive(true);
+            Explaination.SetActive(true);
             StartCoroutine("ClosePanel");
             return;
         }
@@ -32,16 +38,25 @@ public class buttonActions : MonoBehaviour
         Key.GetComponent<Key>().openDoor = true;
         SoundandMusic.SWIN = true;
         StartCoroutine("ClosePanel");
+        Key.SetActive(false);
+        Blocked.SetActive(false);
     }
 
     IEnumerator ClosePanel()
     {
         yield return new WaitForSeconds(0.4f);
-        Panel.gameObject.SetActive(false);
+        Panel.SetActive(false);
     }
 
     public void RestartScene()
     {
+        counter = 0;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void NxtLevel()
+    {
+        counter = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

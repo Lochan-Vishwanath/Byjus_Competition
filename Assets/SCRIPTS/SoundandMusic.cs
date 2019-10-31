@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundandMusic : MonoBehaviour
 {
-    public AudioClip WIN,FAIL,Knockback;
+    public AudioClip WIN,FAIL,Knockback,Hurt;
 
     public static bool SWIN, SFAIL, SKnockback;
 
@@ -25,6 +25,10 @@ public class SoundandMusic : MonoBehaviour
         if (collision.gameObject.tag == "Good")
         {
             SWIN = true;
+        }
+        if (collision.gameObject.tag == "EnemyBad")
+        {
+            As.PlayOneShot(Hurt);
         }
     }
 
